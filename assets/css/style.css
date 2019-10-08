@@ -5,3 +5,7 @@ header nav {
     border-bottom: 1px solid #DDD;
     background-color: #414141;
 }
+
+header nav a img.logo {
+    height: 100px;
+}
