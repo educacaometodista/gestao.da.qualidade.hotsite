@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+header nav {
+    height: 100px;
+    border-bottom: 1px solid #DDD;
+    background-color: #414141;
+}
