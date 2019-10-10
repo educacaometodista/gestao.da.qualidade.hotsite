@@ -30,6 +30,10 @@ header div.logo {
     font-size: 22px;
 }
 
+#contato h2 {
+    margin-bottom: 50px;
+}
+
 footer {
     padding: 15px 0;
     margin-bottom: 15px;
