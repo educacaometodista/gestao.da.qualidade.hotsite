@@ -1,8 +1,26 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
 
-* html, body {
-    background-color: #414141;
+*{
+    margin: 0;
+    padding: 0;
+    outline:0;
+    box-sizing: border-box;
+  }
+html, body {
+    background-color: #2e2e2e;
     color: #FFF;
+    min-height: 100%;
+}
+
+body {
+   -webkit-font-smoothing: antialiased !important;
+ }
+  
+body, input, button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-size: 100%;
 }
 
 header {
@@ -13,6 +31,16 @@ header {
 header div.logo {
     max-width: 250px;;
     margin: 0 auto;
+}
+h1, h2, h3{
+    font-weight: 600;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 34px;
+}
+section{
+    padding: 50px 0;
 }
 
 .box {
@@ -30,9 +58,64 @@ header div.logo {
     font-size: 22px;
 }
 
+
+/* SECTION CONTATO */
+section#contato{
+    background:  url("../img/background-parallax.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+;
+}
 #contato h2 {
     margin-bottom: 50px;
 }
+
+#contato h2 {
+    background: transparent;
+    /*width: 98%;*/
+    display: table;
+    white-space: nowrap;
+}
+#contato h2:before {
+    border-top: 2px solid;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 47%;
+}
+#contato h2:after {
+    border-top: 2px solid;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 47%;
+}
+#contato h2:before {
+    right:1%;
+}
+#contato h2:after {
+    left: 1%;
+}
+
+
+/* FORMULÁRIO */
+form.contato input[type='text'],
+form.contato input[type='email'],
+form.contato textarea, form.contato textarea:focus{
+    background:rgba(0, 0, 0, 0.4);
+    color:#FFF;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: #999 !important;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #999 !important;
+  }
+  ::placeholder {
+    color: rgb(170, 170, 170) !important;
+  }
 
 footer {
     padding: 15px 0;
