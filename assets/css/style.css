@@ -37,7 +37,7 @@ header div.logos {
 }
 
 header div.logos img {
-    max-height: 100px;
+    max-height: 80px;
 }
 header div.logos img:first-of-type{
     margin-right: 30px;
