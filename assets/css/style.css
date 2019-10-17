@@ -19,9 +19,13 @@ body {
   
 body, input, button{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
     font-size: 100%;font-weight: 200;
 }
+
+p {
+    font-size: 14px;
+}
+
 ::selection {
 	background:#ffb4a8;
 	color:#FFF;
@@ -69,6 +73,9 @@ header div.logos img:first-of-type{
 {
     header div.logos img {
         max-height: 6vh !important;
+    }
+    p {
+        font-size: 12px;
     }
 }
 
