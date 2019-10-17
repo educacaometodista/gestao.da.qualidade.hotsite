@@ -49,8 +49,6 @@ header div.logos img:first-of-type{
     border-right: solid 1px rgba(255, 255, 255, 0.2);
 }
 
-
-
 @media(max-width: 348px)
 {
     header div.logos img {
@@ -76,6 +74,23 @@ header div.logos img:first-of-type{
     }
     p {
         font-size: 12px;
+    }
+}
+
+@media(max-width: 767px)
+{
+    footer div.logo {
+        float: none !important;
+    }
+
+    footer span {
+        margin: 0 auto 15px auto;
+    }
+
+    footer div.logo img {
+        margin: auto;
+        display: block;
+        text-align: center;
     }
 }
 
@@ -268,4 +283,5 @@ footer {
 
 footer div.logo {
     margin: 0 0 0 auto;
+    float: right;
 }
